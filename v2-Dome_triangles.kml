@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <name>v2-Dome triangles</name>
+  <open>1</open>
+  
+    <Style id="v2triangle">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    
+    <Style id="isotriangle">
+      <LineStyle>
+        <width>3</width>
+        <color>ffffff00</color>
+      </LineStyle>
+      <PolyStyle>
+        <color>000000</color>
+        <fill>0</fill>
+      </PolyStyle>
+    </Style>
+    
+    <Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>5.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+    
+    
+
+
+<Folder>
+<name>Ikosaeder</name>
+		<open>1</open>
+        <Folder>
+<name>Triangles</name>
+		<open>0</open>
+
+<Placemark>
+<name>ABK</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 180,-58.282525588539,0 -90,-31.717474411461,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>ABI</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 180,-58.282525588539,0 90,-31.717474411461,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AEI</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 31.717474411461,0,0 90,-31.717474411461,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AEF</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 31.717474411461,0,0 -31.717474411461,0,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AFK</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 -31.717474411461,0,0 -90,-31.717474411461,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>FKL</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 -90,-31.717474411461,0 -90,31.717474411461,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>HKL</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 -90,-31.717474411461,0 -90,31.717474411461,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DHL</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 -148.282525588539,0,0 -90,31.717474411461,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DGH</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 148.282525588539,0,0 -148.282525588539,0,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DGJ</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 148.282525588539,0,0 90,31.717474411461,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>GIJ</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 90,-31.717474411461,0 90,31.717474411461,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>EIJ</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 90,-31.717474411461,0 90,31.717474411461,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CEJ</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 31.717474411461,0,0 90,31.717474411461,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CEF</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 31.717474411461,0,0 -31.717474411461,0,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CFL</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 -31.717474411461,0,0 -90,31.717474411461,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CDL</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 180,58.282525588539,0 -90,31.717474411461,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CDJ</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 180,58.282525588539,0 90,31.717474411461,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BGI</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 148.282525588539,0,0 90,-31.717474411461,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BGH</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 148.282525588539,0,0 -148.282525588539,0,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BHK</name>
+<styleUrl>#isotriangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 -148.282525588539,0,0 -90,-31.717474411461,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+
+</Folder>
+<Folder>
+<name>Points</name>
+		<open>0</open>
+        <visibility>0</visibility>
+        
+        <Placemark> <name>A</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,-58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>B</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,-58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>C</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>D</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>E</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>31.717474411461,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>F</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-31.717474411461,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>G</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>148.282525588539,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>H</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-148.282525588539,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>I</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,-31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>J</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>K</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,-31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>L</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,31.717474411461,0</coordinates> </Point> </Placemark>
+        
+        
+        </Folder>
+</Folder>
+
+
+<Folder>
+<name>v2-Dome</name>
+<open>1</open>
+ <Folder>
+<name>Triangles</name>
+		<open>0</open>
+
+<Placemark>
+<name>A_AB_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 0,-90,0 -58.282525588539,-54,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>A_AB_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 0,-90,0 58.282525588539,-54,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>A_AE_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 20.9051574478893,-30,0 58.282525588539,-54,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>A_AE_AF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 20.9051574478893,-30,0 -20.9051574478893,-30,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>A_AF_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-58.282525588539,0 -20.9051574478893,-30,0 -58.282525588539,-54,0 0,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>F_FK_FL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 -58.282525588539,-18,0 -58.282525588539,18,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>H_HK_HL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 -121.717474411461,-18,0 -121.717474411461,18,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>D_DH_DL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 -159.094842552111,30,0 -121.717474411461,54,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>D_DG_DH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 159.094842552111,30,0 -159.094842552111,30,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>D_DG_DJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 159.094842552111,30,0 121.717474411461,54,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>G_GI_GJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 121.717474411461,-18,0 121.717474411461,18,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>E_EI_EJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 58.282525588539,-18,0 58.282525588539,18,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>C_CE_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 20.9051574478893,30,0 58.282525588539,54,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>C_CE_CF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 20.9051574478893,30,0 -20.9051574478893,30,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>C_CF_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 -20.9051574478893,30,0 -58.282525588539,54,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>C_CD_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 0,90,0 -58.282525588539,54,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>C_CD_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,58.282525588539,0 0,90,0 58.282525588539,54,0 0,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>B_BG_BI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 159.094842552111,-30,0 121.717474411461,-54,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>B_BG_BH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 159.094842552111,-30,0 -159.094842552111,-30,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>B_BH_BK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 -159.094842552111,-30,0 -121.717474411461,-54,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>B_AB_BK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 0,-90,0 -121.717474411461,-54,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>B_AB_BI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,-58.282525588539,0 0,-90,0 121.717474411461,-54,0 180,-58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>E_AE_EI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 20.9051574478893,-30,0 58.282525588539,-18,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>E_AE_EF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 20.9051574478893,-30,0 0,0,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>F_AF_FK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 -20.9051574478893,-30,0 -58.282525588539,-18,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>K_FK_KL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,-31.717474411461,0 -58.282525588539,-18,0 -90,0,0 -90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>K_HK_KL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,-31.717474411461,0 -121.717474411461,-18,0 -90,0,0 -90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>H_DH_HL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 -159.094842552111,30,0 -121.717474411461,18,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>G_DG_GH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 159.094842552111,30,0 180,0,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>G_DG_GJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 159.094842552111,30,0 121.717474411461,18,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>I_GI_IJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,-31.717474411461,0 121.717474411461,-18,0 90,0,0 90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>I_EI_IJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,-31.717474411461,0 58.282525588539,-18,0 90,0,0 90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>E_CE_EJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 20.9051574478893,30,0 58.282525588539,18,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>E_CE_EF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+31.717474411461,0,0 20.9051574478893,30,0 0,0,0 31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>F_CF_FL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 -20.9051574478893,30,0 -58.282525588539,18,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>D_CD_DL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 0,90,0 -121.717474411461,54,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>D_CD_DJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+180,58.282525588539,0 0,90,0 121.717474411461,54,0 180,58.282525588539,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>G_BG_GI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 159.094842552111,-30,0 121.717474411461,-18,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>G_BG_GH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+148.282525588539,0,0 159.094842552111,-30,0 180,0,0 148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>H_BH_HK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 -159.094842552111,-30,0 -121.717474411461,-18,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>K_BK_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,-31.717474411461,0 -121.717474411461,-54,0 -58.282525588539,-54,0 -90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>I_BI_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,-31.717474411461,0 121.717474411461,-54,0 58.282525588539,-54,0 90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>I_EI_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,-31.717474411461,0 58.282525588539,-18,0 58.282525588539,-54,0 90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>F_EF_AF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 0,0,0 -20.9051574478893,-30,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>K_FK_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,-31.717474411461,0 -58.282525588539,-18,0 -58.282525588539,-54,0 -90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>L_KL_FL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,31.717474411461,0 -90,0,0 -58.282525588539,18,0 -90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>L_KL_HL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,31.717474411461,0 -90,0,0 -121.717474411461,18,0 -90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>L_HL_DL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,31.717474411461,0 -121.717474411461,18,0 -121.717474411461,54,0 -90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>H_GH_DH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 180,0,0 -159.094842552111,30,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>J_GJ_DJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,31.717474411461,0 121.717474411461,18,0 121.717474411461,54,0 90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>J_IJ_GJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,31.717474411461,0 90,0,0 121.717474411461,18,0 90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>J_IJ_EJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,31.717474411461,0 90,0,0 58.282525588539,18,0 90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>J_EJ_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,31.717474411461,0 58.282525588539,18,0 58.282525588539,54,0 90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>F_EF_CF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-31.717474411461,0,0 0,0,0 -20.9051574478893,30,0 -31.717474411461,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>L_FL_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,31.717474411461,0 -58.282525588539,18,0 -58.282525588539,54,0 -90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>L_DL_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,31.717474411461,0 -121.717474411461,54,0 -58.282525588539,54,0 -90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>J_DJ_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,31.717474411461,0 121.717474411461,54,0 58.282525588539,54,0 90,31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>I_GI_BI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+90,-31.717474411461,0 121.717474411461,-18,0 121.717474411461,-54,0 90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>H_GH_BH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-148.282525588539,0,0 180,0,0 -159.094842552111,-30,0 -148.282525588539,0,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>K_HK_BK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-90,-31.717474411461,0 -121.717474411461,-18,0 -121.717474411461,-54,0 -90,-31.717474411461,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AB_BK_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-90,0 -121.717474411461,-54,0 -58.282525588539,-54,0 0,-90,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AB_BI_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,-90,0 121.717474411461,-54,0 58.282525588539,-54,0 0,-90,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AE_EI_AI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+20.9051574478893,-30,0 58.282525588539,-18,0 58.282525588539,-54,0 20.9051574478893,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AE_EF_AF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+20.9051574478893,-30,0 0,0,0 -20.9051574478893,-30,0 20.9051574478893,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>AF_FK_AK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-20.9051574478893,-30,0 -58.282525588539,-18,0 -58.282525588539,-54,0 -20.9051574478893,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>FK_KL_FL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-58.282525588539,-18,0 -90,0,0 -58.282525588539,18,0 -58.282525588539,-18,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>HK_KL_HL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-121.717474411461,-18,0 -90,0,0 -121.717474411461,18,0 -121.717474411461,-18,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DH_HL_DL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-159.094842552111,30,0 -121.717474411461,18,0 -121.717474411461,54,0 -159.094842552111,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DG_GH_DH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+159.094842552111,30,0 180,0,0 -159.094842552111,30,0 159.094842552111,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>DG_GJ_DJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+159.094842552111,30,0 121.717474411461,18,0 121.717474411461,54,0 159.094842552111,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>GI_IJ_GJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+121.717474411461,-18,0 90,0,0 121.717474411461,18,0 121.717474411461,-18,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>EI_IJ_EJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+58.282525588539,-18,0 90,0,0 58.282525588539,18,0 58.282525588539,-18,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CE_EJ_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+20.9051574478893,30,0 58.282525588539,18,0 58.282525588539,54,0 20.9051574478893,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CE_EF_CF</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+20.9051574478893,30,0 0,0,0 -20.9051574478893,30,0 20.9051574478893,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CF_FL_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-20.9051574478893,30,0 -58.282525588539,18,0 -58.282525588539,54,0 -20.9051574478893,30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CD_DL_CL</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,90,0 -121.717474411461,54,0 -58.282525588539,54,0 0,90,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>CD_DJ_CJ</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+0,90,0 121.717474411461,54,0 58.282525588539,54,0 0,90,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BG_GI_BI</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+159.094842552111,-30,0 121.717474411461,-18,0 121.717474411461,-54,0 159.094842552111,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BG_GH_BH</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+159.094842552111,-30,0 180,0,0 -159.094842552111,-30,0 159.094842552111,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+<Placemark>
+<name>BH_HK_BK</name>
+<styleUrl>#v2triangle</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs> <LinearRing> <coordinates>
+-159.094842552111,-30,0 -121.717474411461,-18,0 -121.717474411461,-54,0 -159.094842552111,-30,0 
+</coordinates> </LinearRing> </outerBoundaryIs> </Polygon> </Placemark>
+
+
+</Folder>
+<Folder>
+<name>Points</name>
+		<open>0</open>
+        <visibility>0</visibility>
+        
+        
+<Placemark> <name>AB</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,-90,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AE</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>20.9051574478893,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-20.9051574478893,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BG</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>159.094842552111,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-159.094842552111,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CD</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,90,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CE</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>20.9051574478893,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-20.9051574478893,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DG</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>159.094842552111,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-159.094842552111,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>FK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>FL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>HK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>HL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>IJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>KL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,0,0</coordinates> </Point> </Placemark>
+    
+        
+        
+        </Folder>
+
+</Folder>
+
+
+  </Document>
+</kml>
+
