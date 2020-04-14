@@ -25,6 +25,38 @@
 			<width>2.7</width>
 		</LineStyle>
 	</Style>
+    
+    
+      <Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>5.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
 		
 	
 	<StyleMap id="Dynamic">
@@ -38,6 +70,30 @@
 		</Pair>
 	</StyleMap>
 	
+
+
+<Placemark> 
+    <name>A</name> 
+    <styleUrl>#m_ylw-pushpin</styleUrl> 
+    <LookAt>
+        <longitude>0</longitude>
+        <latitude>-58.282525588539</latitude>
+        <altitude>0</altitude>
+        <altitudeMode>clampToGround</altitudeMode>
+        <range>4000000</range>
+    <tilt>0</tilt>
+    <heading>71.131493</heading>
+        </LookAt>
+    <Point> 
+        <coordinates>
+            0,-58.282525588539,0
+        </coordinates> 
+    </Point> 
+</Placemark>
+
+
+
+
 
 	<Folder>
 		<name>Geodesic vs Rhumb</name>
