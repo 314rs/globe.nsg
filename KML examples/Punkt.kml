@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Punkt.kmz</name>
+    
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>5.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+    
+<Placemark> <name>A</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,-58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>B</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,-58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>C</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>D</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,58.282525588539,0</coordinates> </Point> </Placemark>
+<Placemark> <name>E</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>31.717474411461,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>F</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-31.717474411461,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>G</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>148.282525588539,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>H</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-148.282525588539,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>I</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,-31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>J</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>K</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,-31.717474411461,0</coordinates> </Point> </Placemark>
+<Placemark> <name>L</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,31.717474411461,0</coordinates> </Point> </Placemark>
+
+    
+</Document>
+</kml>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Geodesic vs Rhumb.kml</name>
+	<Style id="FilledPolygon">		
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="UnfilledPolygon">		
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="Path">		
+		<LineStyle>
+			<color>ff7fff55</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+		
+	
+	<StyleMap id="Dynamic">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#FilledPolygon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#UnfilledPolygon</styleUrl>
+		</Pair>
+	</StyleMap>
+	
+
+	<Folder>
+		<name>Geodesic vs Rhumb</name>
+		<open>1</open>
+		<Placemark>
+			<name>A filled KML Polygon uses rhumb lines</name>
+			<open>1</open>
+			<styleUrl>#FilledPolygon</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-129.0133032296588,66.40852471670162,0 155.1760142482501,87.30334954255064,0 -141.5951950354471,68.65777649939095,0 -129.0133032296588,66.40852471670162,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>An unfilled filled KML polygon uses geodesics</name>
+			<styleUrl>#UnfilledPolygon</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-129.0133032296588,66.40852471670162,0 155.1760142482501,87.30334954255064,0 -141.5951950354471,68.65777649939095,0 -129.0133032296588,66.40852471670162,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+		<name>A geodesic created with a KML path</name>
+		<styleUrl>#Path</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				117.8433992145268,72.7406875533373,0 28.84861504339705,72.5036027957066,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+		<Placemark>
+			<name>This polygon will be filled until you hold the mouse over it.</name>
+			<styleUrl>#Dynamic</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-28.6409730313871,41.18513702387578,0 24.99217819636194,48.17006009052819,0 27.25519299936784,68.5976649485261,0 -37.17885855925699,63.67388437178787,0 -28.6409730313871,41.18513702387578,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Punkt2.kmz</name>
+    
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>5.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+    
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+    
+
+<Placemark> <name>AB</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,-90,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AE</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>20.9051574478893,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-20.9051574478893,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>AK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BG</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>159.094842552111,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-159.094842552111,-30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>BK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,-54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CD</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,90,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CE</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>20.9051574478893,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-20.9051574478893,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>CL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DG</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>159.094842552111,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-159.094842552111,30,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>DL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,54,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EF</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>0,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>EJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>58.282525588539,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>FK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>FL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-58.282525588539,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GH</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>180,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GI</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>GJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>121.717474411461,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>HK</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,-18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>HL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-121.717474411461,18,0</coordinates> </Point> </Placemark>
+<Placemark> <name>IJ</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>90,0,0</coordinates> </Point> </Placemark>
+<Placemark> <name>KL</name> <styleUrl>#m_ylw-pushpin</styleUrl> <Point> <coordinates>-90,0,0</coordinates> </Point> </Placemark>
+    
+</Document>
+</kml>
